@@ -7,7 +7,7 @@ Integrantes:
 * Gustavo Ramoscelli
 * Martín Errázquin
 * Marcelo Le Mehaute
-* 
+  
 ## Temática elegida
 
 El dataset seleccionado es un conjunto de datos sintético sobre episodios de podcast con diferentes features como el nombre del podcast, el título del episodio, la duración en minutos, etc. a partir de las cuales se plantea predecir el tiempo medio de escucha del mismo, también informada en el dataset.
