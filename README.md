@@ -1,6 +1,6 @@
 # Operaciones de Aprendizaje Automático I - TP Final
 
-Este repositorio contiene el material utilizado para el trabajo práctico final para la materia *Aprendizaje de Máquina 1* de la Carrera de Especialización en Inteligencia Artificial (CEIA) de FIUBA.
+Este repositorio contiene el material utilizado para el trabajo práctico final para la materia *Operaciones de Aprendizaje Automático I* de la Carrera de Especialización en Inteligencia Artificial (CEIA) de FIUBA.
 
 Integrantes:
 
