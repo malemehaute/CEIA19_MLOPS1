@@ -1,14 +1,13 @@
-# Aprendizaje de Máquina 1 - TP Final
+# Operaciones de Aprendizaje Automático I - TP Final
 
 Este repositorio contiene el material utilizado para el trabajo práctico final para la materia *Aprendizaje de Máquina 1* de la Carrera de Especialización en Inteligencia Artificial (CEIA) de FIUBA.
 
 Integrantes:
 
-* Alejandro Le Mehaute
 * Gustavo Ramoscelli
-* Javier Etcheto
 * Martín Errázquin
-
+* Marcelo Le Mehaute
+* 
 ## Temática elegida
 
 El dataset seleccionado es un conjunto de datos sintético sobre episodios de podcast con diferentes features como el nombre del podcast, el título del episodio, la duración en minutos, etc. a partir de las cuales se plantea predecir el tiempo medio de escucha del mismo, también informada en el dataset.
