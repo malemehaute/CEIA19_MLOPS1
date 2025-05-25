@@ -1,0 +1,18 @@
+[project]
+name = "aprmaqi"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "category-encoders>=2.8.1",
+    "lightgbm>=4.6.0",
+    "matplotlib>=3.10.1",
+    "numpy>=2.2.4",
+    "pandas>=2.2.3",
+    "scikit-learn>=1.6.1",
+    "scipy>=1.15.2",
+    "seaborn>=0.13.2",
+    "tqdm>=4.67.1",
+    "optuna>=3.6.0",
+]
