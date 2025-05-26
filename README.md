@@ -74,26 +74,26 @@ FASTAPI_PORT=8800
 
 ## Detalle de acceso a los servicios
 ### 1. Airflow
-Descripción: Maneja el pipeline ETL que entrenará al dataset de podcasts.
-URL: [http://localhost:8080](http://localhost:8080)
-User: airflow
-Password: airflow
+- Descripción: Maneja el pipeline ETL que entrenará al dataset de podcasts.
+- URL: [http://localhost:8080](http://localhost:8080)
+- User: airflow
+- Password: airflow
 
 ### 2. MLflow
-Descripción: Monitorea el flujo de tasks del proyecto y es donde se muestran los resultados de los entrenamientos.
-URL: [http://localhost:5001](http://localhost:5001)
+- Descripción: Monitorea el flujo de tasks del proyecto y es donde se muestran los resultados de los entrenamientos.
+- URL: [http://localhost:5001](http://localhost:5001)
 
 ### 3. MinIO
-Descripción: Provee storage para poder almacenar los datos en formato simil S3.
-URL: [http://localhost:9009](http://localhost:9001)
-Credenciales:
-Access key: minio
-Secret: minio123
+- Descripción: Provee storage para poder almacenar los datos en formato simil S3.
+- URL: [http://localhost:9009](http://localhost:9001)
+- Credenciales:
+- Access key: minio
+- Secret: minio123
 
 ### 4. FastAPI
-Descripción: Muestra el API Rest endpoint para servir el modelo y poder pegarle comandos.
-URL:  [http://localhost:8800](http://localhost:8800)
-Documentación de la API: [http://localhost:8800/docs](http://localhost:8800/docs)
+- Descripción: Muestra el API Rest endpoint para servir el modelo y poder pegarle comandos.
+- URL:  [http://localhost:8800](http://localhost:8800)
+- Documentación de la API: [http://localhost:8800/docs](http://localhost:8800/docs)
 
 ## Pasos para ejecutar el proyecto
 ### Paso 1: Iniciar los servicios
