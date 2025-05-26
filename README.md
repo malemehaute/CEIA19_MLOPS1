@@ -41,7 +41,7 @@ $ uv run --with jupyter jupyter lab
 
 ## Variables de environment
 Se encuentran en el archivo .env en el repositorio:
-
+```bash
 ### Airflow configuration
 AIRFLOW_UID=50000
 AIRFLOW_GID=0
@@ -70,6 +70,7 @@ DATA_REPO_BUCKET_NAME=data
 
 ## FastAPI configuration
 FASTAPI_PORT=8800
+```
 
 ## Detalle de acceso a los servicios
 ### 1. Airflow
