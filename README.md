@@ -81,7 +81,7 @@ FASTAPI_PORT=8800
 
 ### 2. MLflow
 - Descripción: Monitorea el flujo de tasks del proyecto y es donde se muestran los resultados de los entrenamientos.
-- URL: [http://localhost:5001](http://localhost:5000)
+- URL: [http://localhost:5000](http://localhost:5000)
 
 ### 3. MinIO
 - Descripción: Provee storage para poder almacenar los datos en formato simil S3.

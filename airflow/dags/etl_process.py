@@ -142,7 +142,7 @@ def process_etl_podcast_data():
             Body=data_string
         )
 
-        mlflow.set_tracking_uri('http://mlflow:5001')
+        mlflow.set_tracking_uri('http://mlflow:5000')
         experiment = mlflow.set_experiment("Podcast Data")
 
         mlflow.start_run(run_name='ETL_run_' + datetime.datetime.today().strftime('%Y/%m/%d-%H:%M:%S"'),
@@ -259,7 +259,7 @@ def process_etl_podcast_data():
             Body=data_string
         )
 
-        mlflow.set_tracking_uri('http://mlflow:5001')
+        mlflow.set_tracking_uri('http://mlflow:5000')
         experiment = mlflow.set_experiment("Podcast Data")
 
         # Obtain the last experiment run_id to log the new information
