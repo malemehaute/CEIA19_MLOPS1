@@ -57,7 +57,7 @@ PG_DATABASE=airflow
 PG_PORT=5432
 
 ### Mlflow configuration
-MLFLOW_PORT=5001
+MLFLOW_PORT=5000
 MLFLOW_S3_ENDPOINT_URL=http://s3:9000
 
 ### MinIO configuration
@@ -81,7 +81,7 @@ FASTAPI_PORT=8800
 
 ### 2. MLflow
 - Descripción: Monitorea el flujo de tasks del proyecto y es donde se muestran los resultados de los entrenamientos.
-- URL: [http://localhost:5001](http://localhost:5001)
+- URL: [http://localhost:5001](http://localhost:5000)
 
 ### 3. MinIO
 - Descripción: Provee storage para poder almacenar los datos en formato simil S3.
