@@ -46,6 +46,15 @@ def process_etl_podcast_data():
         import pandas as pd
 
         data_path = "s3://data/raw/podcast.csv"
+
+        # DEBUG:
+        from pathlib import Path
+        print("<DEBUGGING>")
+        for p in Path(".").iterdir():
+            print(p)
+        print("</DEBUGGING>")
+
+        # simulate downloading data
         dataframe = pd.read_csv("podcast_dataset.csv")
         #dataframe = pd.read_csv(r"C:\Users\Alejandro\Documents\GitHub\CEIA19_MLOPS1\podcast_dataset.csv")
 
