@@ -55,7 +55,7 @@ def process_etl_podcast_data():
         print("</DEBUGGING>")
 
         # simulate downloading data
-        dataframe = pd.read_csv("podcast_dataset.csv")
+        dataframe = pd.read_csv("/podcast_dataset.csv")
         #dataframe = pd.read_csv(r"C:\Users\Alejandro\Documents\GitHub\CEIA19_MLOPS1\podcast_dataset.csv")
 
         # Assuming 'listen_count' is the target column in your podcast dataset.
@@ -160,11 +160,11 @@ def process_etl_podcast_data():
                          log_system_metrics=True)
 
         mlflow_dataset = mlflow.data.from_pandas(dataset,
-                                                 source="podcast_dataset.csv",
+                                                 source="/podcast_dataset.csv",
                                                  targets=target_col,
                                                  name="podcast_data_complete")
         mlflow_dataset_dummies = mlflow.data.from_pandas(dataset_with_dummies,
-                                                         source="podcast_dataset.csv",
+                                                         source="/podcast_dataset.csv",
                                                          targets=target_col,
                                                          name="podcast_data_complete_with_dummies")
         mlflow.log_input(mlflow_dataset, context="Dataset")
