@@ -15,4 +15,5 @@ dependencies = [
     "seaborn>=0.13.2",
     "tqdm>=4.67.1",
     "optuna>=3.6.0",
+    "ipykernel>=6.29.5",
 ]
